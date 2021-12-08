@@ -1,0 +1,14 @@
+{
+    "name": "DevTest",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-selenium-wd2": "0.1.4-4"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "DevTest.json",
+            "credentialsFile": "DevTest_cred.json"
+        }
+    }
+}
